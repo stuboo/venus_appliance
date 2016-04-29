@@ -243,7 +243,7 @@ while($i < $contacts_count + 1){
 //$encoded = json_encode($_GET);
 //header('Content-type: application/json');
 //exit($encoded);
-exit($_SERVER[REQUEST_URI]);
+exit('SUCCESS');
 // output array to log file
 
 // ping pushover or boxcar

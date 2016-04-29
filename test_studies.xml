@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<studies>
+	<study id="A0">
+		<title>STUDY ONE</title>
+		<descriptions>
+			<description>This is a study.</description>
+		</descriptions>
+		<contacts>
+			<contact>
+				<name>Ryan</name>
+				<phone>9876543210</phone>
+				<pager></pager>
+				<sms>9876543210</sms>
+				<email>email@email.com</email>
+			</contact>
+			<contact>
+				<name>Rebecca</name>
+				<phone>9876543210</phone>
+				<pager></pager>
+				<sms>9876543210</sms>
+				<email>ryan@ryanstewart.com</email>
+			</contact>
+		</contacts>
+	</study>
+	<study id="A1">
+		<title>STUDY TWO</title>
+		<descriptions>
+			<description>This is another study.</description>
+			<description>Please contact before or within 2 hours of administration.</description>
+		</descriptions>
+		<contacts>
+			<contact>
+				<name>Ryan</name>
+				<phone>9876543210</phone>
+				<pager>9876543211</pager>
+				<sms>9876543210</sms>
+				<email>email@email.com</email>
+			</contact>
+		</contacts>
+	</study>
+	<study id="A2">
+		<title>STUDY THREE</title>
+		<descriptions>
+			<description>YAS.</description>
+			<description>Current studiess.</description>
+		</descriptions>
+		<contacts>
+			<contact>
+				<name>Ryan</name>
+				<phone>9876543210</phone>
+				<pager></pager>
+				<sms>9876543210</sms>
+				<email>email@email.com</email>
+			</contact>
+		</contacts>
+	</study>
+	<study id="A3">
+		<title>STUDY FOUR</title>
+		<descriptions>
+			<description>A study description.</description>
+			<description>More description.</description>
+		</descriptions>
+		<contacts>
+			<contact>
+				<name>Ryan</name>
+				<phone>9876543210</phone>
+				<pager></pager>
+				<sms>9876543210</sms>
+				<email>email@email.com</email>
+			</contact>
+		</contacts>
+	</study>
+	<study id="A4">
+		<title>STUDY FIVE</title>
+		<descriptions>
+			<description></description>
+			<description></description>
+			<description></description>
+		</descriptions>
+		<contacts>
+			<contact>
+				<name>Ryan</name>
+				<phone>9876543210</phone>
+				<pager></pager>
+				<sms>9876543210</sms>
+				<email>email@email.com</email>
+				<email>54drf6tiyuhnuin@api.pushover.net</email>
+			</contact>
+		</contacts>
+	</study>
+	<study id="A5">
+		<title>STUDY SIX</title>
+		<descriptions>
+			<description></description>
+			<description></description>
+			<description></description>
+		</descriptions>
+		<contacts>
+			<contact>
+				<name>Ryan</name>
+				<phone>9876543210</phone>
+				<pager></pager>
+				<sms>9876543210</sms>
+				<email>5der6ftyguyihn8h67fr@api.pushover.net</email>
+			</contact>
+		</contacts>
+	</study>
+	<study id="A6">
+		<title>STUDY SEVEN</title>
+		<descriptions>
+			<description></description>
+			<description></description>
+			<description></description>
+		</descriptions>
+		<contacts>
+			<contact>
+				<name>Ryan</name>
+				<phone>9876543210</phone>
+				<pager></pager>
+				<sms>9876543210</sms>
+				<email>email@email.com</email>
+			</contact>
+		</contacts>
+	</study>
+	<study id="A7">
+		<title>STUDY EIGHT</title>
+		<descriptions>
+			<description></description>
+			<description></description>
+			<description></description>
+		</descriptions>
+		<contacts>
+			<contact>
+				<name>Ryan</name>
+				<phone>9876543210</phone>
+				<pager></pager>
+				<sms>9876543210</sms>
+				<email>email@email.com</email>
+			</contact>
+		</contacts>
+	</study>
+</studies>

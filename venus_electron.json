@@ -1,0 +1,10 @@
+{
+    "event": "venus",
+    "url": "http://mysite.com/notify.php",
+    "requestType": "GET",
+	"query": {
+		"id":"{{SPARK_EVENT_VALUE}}",
+		"location":"{{SPARK_CORE_ID}}"
+	},
+    "mydevices": true
+}

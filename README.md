@@ -17,8 +17,8 @@ VENUS uses devices in the [Particle](http://particle.io) family of projects (pho
 - 4x4 membrane keypad ([Ebay](http://www.ebay.com/sch/i.html?_nkw=4x4+membrane+keypad)), ([AliExpress](http://www.aliexpress.com/wholesale?SearchText=4x4+membrane+keypad)), ([Adafruit](https://www.adafruit.com/products/419) 3x4)
 - Micro USB cable ([Ebay](http://www.ebay.com/sch/i.html?_nkw=micro+usb+cable)), ([AliExpress](http://www.aliexpress.com/wholesale?SearchText=micro+usb+cable)), ([Adafruit](https://www.adafruit.com/products/2185)) and some sort of usb power adapter ([Ebay](http://www.ebay.com/sch/i.html?_nkw=usb+power+adapter)), ([AliExpress](http://www.aliexpress.com/wholesale?SearchText=usb+power+adapter))
 - X-Acto (or other sharp) knife
-- 6 inches of 18g solid core wire
-- Wire cutter
+- 8 long male headers. [I used these from Sparkfun](https://www.sparkfun.com/products/12693).
+- Wire cutters
 - A webserver capable of running PHP. I use [Dreamhost](http://dreamhost.com).
 
 ##### Optional, but may make things easier
@@ -27,20 +27,33 @@ VENUS uses devices in the [Particle](http://particle.io) family of projects (pho
 - Hot glue gun
 - The enclosure of your choice. I used [this one from McMaster-Carr](http://www.mcmaster.com/#catalog/122/894/=128k2f4). In a revised version, I simply used the plastic case that came with the Electron and it worked beautifully. I outline that process below.
 
-## Hardware Assembly
+## Installation and Assembly
+### Setting up the Webserver
+- change notify.php to include your twilio settings
+- edit the configuration files
 
-##### Schematics
-
-## Programming the Web Interface
-#### Setting up Third Party Services
+### Setting up the Third Party Services
 ##### Postmark
 ##### Twilio
 ##### Pushover
-#### The Glue Script (`notify.php`)
 
-## Setting up the Particle Electron Webhook (`venus_electron.json`)
-## Programming the Particle Electron (`keyboard.ino`)
-## Customizing the Notification Options (`contacts.json`)
+### Setting up the Particle Electron
+- claim the electron
+- install the sim card and register
+- create the webhook
+- modify keypad.ino
+- flash the electron
+
+### Building the Case
+- modify the case
+- place the breadboard
+- place the electron
+- place and connect the antenna
+- place and connect the keypad
+- plug in and close the case
 
 ## What I've learned. Ideas for future development and enhancement. 
+- Put third party API keys in a config file and push the name of that config file using the webhook.
+- Build a password protected index.html page where config files and legends can be viewed.
+
 

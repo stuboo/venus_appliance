@@ -84,6 +84,7 @@ VENUS uses devices in the [Particle](http://particle.io) family of projects (pho
 
 ### Setting up the Webserver
 > A note about `DEVICE_ID.json` This file name will change for every device you set up. The `DEVICE_ID` is assigned by Particle, the makers of the photon and electron devices. To find the `DEVICE_ID` for all of the devices associated with your account, log in to the [Particle Dashboard](https://dashboard.particle.io/user/devices).
+
 - change `DEVICE_ID.json` to include the location of the device, the location description, the callback number, and the 'ask for' value.
 - change `DEVICE_ID.json` to include your Twilio and Postmark settings.
 - upload the following files to your webserver

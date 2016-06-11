@@ -53,6 +53,7 @@ VENUS uses devices in the [Particle](http://particle.io) family of projects (pho
   - if things go as planned, your device will now be active and visible in your [particle dashboard](https://dashboard.particle.io/user/devices)
 - [create a Particle webhook](https://dashboard.particle.io/user/integrations/create)
   - click 'Webhook' then click 'Custom JSON'
+  - copy and paste the following code into the editor
 ```
 {
     "event": "YOUR-WEBHOOK-NAME",

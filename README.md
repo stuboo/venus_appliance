@@ -67,9 +67,7 @@ VENUS uses devices in the [Particle](http://particle.io) family of projects (pho
 ```
   - change `YOUR-WEBHOOK-NAME` to the name of your choice
   - change `YOUR-WEBSITE-URL` to the URL of the website you plan to set up in the next step
-- modify (around line 60) keypad.ino to include `YOUR-WEBHOOK-NAME` that you chose above
-
-      Particle.publish("YOUR-WEBHOOK-NAME", String(value), 60, PRIVATE);
+- modify (around line 60) keypad.ino to include `YOUR-WEBHOOK-NAME` that you chose above: `Particle.publish("YOUR-WEBHOOK-NAME", String(value), 60, PRIVATE);`
 - navigate to [build.particle.io](https://build.particle.io)
   - choose the 'Devices' icon from the menu on the left and select your device (unless you have multiple devices, there will likely be only one option to choose from) -- the star beside the device should be yellow
   - choose the 'Code' icon from the menu on the left
